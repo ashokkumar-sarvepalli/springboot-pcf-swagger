@@ -1,0 +1,7 @@
+---
+applications:
+- name: transaction-status
+  memory: 1G
+  instances: 1
+  path: target/transactionstats-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
